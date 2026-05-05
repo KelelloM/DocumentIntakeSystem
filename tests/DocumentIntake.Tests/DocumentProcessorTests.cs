@@ -1,6 +1,5 @@
-using DocumentIntake.Api.Models;
 using DocumentIntake.Api.Services;
-using FluentAssertions;
+using Xunit;
 
 namespace DocumentIntake.Tests;
 
@@ -13,7 +12,7 @@ public sealed class DocumentProcessorTests
 
         var preview = DocumentProcessor.CreatePreview(text, 24);
 
-        preview.Should().Be("This is a document with...");
-        preview.Length.Should().BeLessThanOrEqualTo(27);
+        Assert.Equal("This is a document with...", preview);
+        Assert.True(preview.Length <= 27);
     }
 }
