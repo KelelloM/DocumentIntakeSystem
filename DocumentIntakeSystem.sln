@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentIntake.Api", "src\DocumentIntake.Api\DocumentIntake.Api.csproj", "{4DB79D4F-42DF-4B0B-8DC5-1E95F7018E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentIntake.Tests", "tests\DocumentIntake.Tests\DocumentIntake.Tests.csproj", "{A694E7F1-EC88-4E98-8EBD-F277A0C01530}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB79D4F-42DF-4B0B-8DC5-1E95F7018E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB79D4F-42DF-4B0B-8DC5-1E95F7018E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB79D4F-42DF-4B0B-8DC5-1E95F7018E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB79D4F-42DF-4B0B-8DC5-1E95F7018E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A694E7F1-EC88-4E98-8EBD-F277A0C01530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A694E7F1-EC88-4E98-8EBD-F277A0C01530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A694E7F1-EC88-4E98-8EBD-F277A0C01530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A694E7F1-EC88-4E98-8EBD-F277A0C01530}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
